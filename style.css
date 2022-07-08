@@ -976,3 +976,34 @@ textarea{
         margin-bottom: 80px;
     }
 }
+@media screen and (max-width:375px) {
+    .designation{
+        margin-top: -35px;
+    }
+    .cv{
+        width: 35vw;
+    }
+    .letstalk{
+        width: 25vw;
+    }
+    .exp, .abouttext, .serv, .pro, .tes, .cont, .tit{
+        margin-top: -20px;
+    }
+    .pro1a{
+        width: 280px;
+        height: 280px;
+    }
+    .proimg{
+        width: 250px;
+        margin-top: -10px;
+    }
+    .h{
+        font-size: 20px;
+    }
+    .te{
+        font-size: 15px;
+    }
+    .live{
+        padding: 8px 15px;
+    }
+}
