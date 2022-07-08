@@ -1,0 +1,939 @@
+:root{
+    --bg: #00011C;
+    --primary: #0342AF;
+    --border: #47A3FF;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+}
+body{
+    background-color: var(--bg);
+}
+.hello{
+    color: white;
+    opacity: 50%;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+.designation{
+    color: white;
+    opacity: 50%;
+    font-size: 2vw;
+    margin-top: -76px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uppertext1{
+    margin-top: 100px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.mar{
+    margin-top: 9px;
+}
+.cv{
+    width: 14vw;
+    height: 40px;
+    background-color: var(--bg);
+    border: var(--border) solid 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+.cv:hover{
+    background-color: var(--primary);
+    transition: all 1s;
+}
+.letstalk{
+    width: 8vw;
+    height: 40px;
+    background-color: var(--primary);
+    border: var(--border) solid 5px;
+    border-radius: 9px;
+    margin-left: 10px;
+    text-align: center;
+}
+.letstalk:hover{
+    background-color: var(--bg);
+    transition: all 1s;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+.social img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 25px;
+}
+.line{
+    width: 3px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    margin-top: -0.1px;
+    margin-left: 10px;
+}
+.lowertext1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.pfp{
+    width: 21vw;
+}
+.frame{
+    background-image: linear-gradient(var(--primary), var(--bg));
+    overflow: hidden;
+    border-radius: 244px 244px 0px 0px;
+}
+.scrollimg{
+    width: 34.5px;
+}
+.scroll{
+    margin-top: -25px;
+}
+.lowertext1{
+    margin-top: 110px;
+}
+/*<!--About US Section Start-->*/
+.aboutme{
+    margin-top: 100px;
+}
+.get{
+    color: white;
+    opacity: 50%;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.abouttext{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -40px;
+}
+/*<!--About US Section End-->*/
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aboutleft{
+    margin-left: 25px;
+}
+.box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    border-radius: 16px;
+    background-color: var(--primary);
+}
+.pfp2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-top: 16px;
+    border-radius: 20px;
+    transform: rotate(2deg);
+}
+.pfp2:hover{
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+.one{
+    display: flex;
+    margin-left: 25px;
+    width: 300px;
+    height: 300px;
+    background-color: var(--bg);
+    border: var(--border) solid 5px;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 72px;
+}
+.head{
+    color: white;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -0.1px;
+}
+.body{
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 50%;
+    margin-top: -25px;
+}
+
+.thre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.aboutmyself{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    width: 90%;
+    margin-left: 35px;
+}
+.aboutright{
+    display: flex;
+    flex-direction: column;
+    margin-left: 106px;
+}
+.lets{
+    display: inline-block;
+    padding: 8px 50px;
+    background-color: var(--primary);
+    border: var(--border) solid 5px;
+    border-radius: 12px;
+    margin-left: 35px;
+}
+.lets:hover{
+    background-color: var(--bg);
+    transition: all 1s;
+}
+.btm{
+    margin-bottom: 815px;
+}
+.highlighter{
+    color: var(--border);
+}
+/*About ME END8888888888888888888888888888888888888888888888888888888888888888888888*/
+.experience{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.what{
+    font-size: 1.1vw;
+    opacity: 50%;
+    text-align: center;
+}
+.exp{
+    font-size: 2vw;
+    margin-top: -38px;
+    text-align: center;
+}
+.ic{
+    width: 31px;
+    height: 31px;
+}
+.t2{
+    margin-top: -19px;
+    margin-left: 15px;
+}
+.t{
+    display: flex;
+    flex-direction: row;
+}
+.tile{
+    font-size: 25px;
+}
+.a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -25px;
+    opacity: 50%;
+}
+.p2{
+    margin-left: 15px;
+}
+.tito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tile{
+    text-align: center;
+}
+.skill_1{
+    width: 350px;
+    background-color: var(--bg);
+    border: var(--border) solid 5px;
+    border-radius: 16px;
+    margin-left: 20px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.experience{
+    margin-bottom: 420px;
+}
+/**/
+/*SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES*/
+.services{
+    margin-top: 10px;
+}
+.offer{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1vw;
+    opacity: 50%;
+    text-align: center;
+}
+.serv{
+    font-size: 2vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -38px;
+}
+/*SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES*/
+.check{
+    width: 30px;
+}
+.servtext{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.ali{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+.s1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.ser1{
+    width: 300px;
+    height: 350px;
+    background-color: var(--bg);
+    border: var(--border) solid 5px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    padding: 10px;
+}
+.serlower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.emptyser{
+    margin-bottom: 350px;
+}
+/*<!--RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS-->*/
+.projects{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.recent{
+    font-size: 1.1vw;
+    text-align: center;
+    opacity: 50%;
+}
+.pro{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: -35px;
+}
+/*<!--RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS-->*/
+.proimg{
+    width: 400px;
+    border-radius: 15px;
+    margin-top: -12px;
+}
+.h{
+    font-size: 25px;
+    margin-top: -0.1px;
+}
+.te{
+    font-size: 15px;
+    margin-top: -20px;
+    opacity: 80%;
+}
+.probtn{
+    margin-top: 10px;
+}
+.protitle{
+    margin-top: 15px;
+}
+.github{
+    background-color: var(--primary);
+    border: var(--border) solid 5px;
+    padding: 8px 60px ;
+    border-radius: 12px;
+}
+.github:hover{
+    background-color: var(--bg);
+    transition: all 1s;
+}
+.live{
+    margin-left: 10px;
+    padding: 8px 55px;
+    background-color: var(--bg);
+    border: var(--border) solid 5px;
+    border-radius: 12px;
+}
+.live:hover{
+    background-color: var(--primary);
+    transition: all 1s;
+}
+.pro1a{
+    width: 430px;
+    height: 370px;
+    border-radius: 15px;
+    background-color: var(--primary);
+    border: var(--border) solid 5px;
+}
+.pro1a{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 10px;
+}
+.pro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.proalign{
+    margin-left: px;
+}
+.space{
+    margin-bottom: 250px;
+}
+.protitle, .probtn, .proimg{
+    margin-left: 15px;
+}
+
+/* TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS */
+.testimonials{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 400px;
+}
+.rev{
+    font-size: 1.1vw;
+    opacity: 50%;
+}
+.tes{
+    font-size: 2vw;
+    margin-top: -35px;
+}
+.author{
+    width: 90px;
+    border-radius: 50%;
+    border: 5px solid var(--border);
+}
+.testbox{
+    display: flex;
+    justify-content: center;
+}
+.tbox{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    background-color: var(--primary);
+    padding: 25px;
+    border-radius: 15px;
+}
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dot:hover, .dot:active{
+    background-color: var(--border);
+  }
+  .testidivider{
+    margin-bottom: 500px;
+  }
+  .mySlide{
+    display: none;
+  }
+/* TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS */
+/* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*/
+.cont{
+    color: white;
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -35px;
+}
+.cicon{
+    width: 40px;
+    height: 40px;
+}
+.t01{
+    color: white;
+    opacity: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.t02{
+    color: white;
+    margin: 0px;
+}
+.conbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    background-color: var(--bg);
+    border: 5px solid var(--border);
+    border-radius: 15px;
+    padding: 5px;
+}
+.whole{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cform{
+    margin-left: 20px;
+}
+input[type=text], input[type=email]{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 5px solid var(--border);
+    background-color: var(--bg);
+    font-size: 20px;
+    color: white;
+}
+
+textarea{
+    background-color: var(--bg);
+    border: 5px solid var(--border);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    border: 5px solid var(--border);
+    border-radius: 10px;
+}
+.send:hover{
+    background-color: var(--bg);
+    transition: all 1s;
+}
+.condivider{
+    margin-bottom: 200px;
+}
+/* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*/
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+.tit{
+    color: var(--primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+.navvv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.1vw;
+    margin-top: -30px;
+}
+.navvv>li{
+    list-style: none;
+    margin-left: 15px;
+}
+.navvv>li>a:hover, .navvv>li>a:active{
+    color: var(--primary);
+    transition: all 1s;
+}
+.socialf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+}
+.ficon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.divfoot{
+    margin-bottom: 640px;
+}
+.credit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: var(--primary);
+}
+.created>a{
+    color: var(--border);
+}
+.created>a:hover{
+    color: var(--primary);
+    transition: all 1s;
+}
+/* Custom Scrollbar  */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--border);
+  }
+
+
+
+  /*responsiveness*/
+@media screen and (max-width:1440px) {
+    .name{
+        margin-top: -40px;
+    }
+    .designation{
+        margin-top: -60px;
+    }
+    .pfp2{
+        width: 200px;
+        height: 300px;
+    }
+    .box{
+        width: 200px;
+        height: 300px;
+    }
+    .one{
+        width: 200px;
+        height: 200px;
+    }
+    .aboutleft{
+        margin-left: 45px;
+    }
+    .abouttext{
+        margin-top: -25px;
+    }
+    .exp{
+        margin-top: -28px;
+    }
+    .serv{
+        margin-top: -28px;
+    }
+    .pro{
+        margin-top: -25px;
+    }
+    .tes{
+        margin-top: -25px;
+    }
+    .cont{
+        margin-top: -25px;
+    }
+    .navvv{
+        padding: 0px;
+    }
+    /*---*/
+}
+@media screen and (max-width:1024px) {
+    .name{
+        margin-top: -25px;
+    }
+    .designation{
+        margin-top: -45px;
+    }
+    .abouttext{
+        margin-top: -20px;
+        font-size: 2.5vw;
+    }
+    .get{
+        font-size: 1.5vw;
+    }
+    .aboutright{
+        margin-left: 0px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .aboutright{
+        margin-top: 25px;
+    }
+    .what{
+        font-size: 1.5vw;
+    }
+    .exp{
+        font-size: 2.5vw;
+    }
+    .skill_1{
+        width: 250px;
+        padding: 10px;
+    }
+    .tile{
+        font-size: 20px;
+    }
+    .a{
+        font-size: 15px;
+    }
+    .b{
+        font-size: 10px;
+        margin-top: -20px;
+    }
+    .ic{
+        width: 21px;
+        height: 21px;
+    }
+    .offer{
+        font-size: 1.5vw;
+    }
+    .serv{
+        font-size: 2.5vw;
+    }
+    .s1{
+        font-size: 20px;
+    }
+    .check{
+        width: 20px;
+    }
+    .servtext{
+        font-size: 15px;
+    }
+    .ser1{
+        width: 200px;
+        height: 250px;
+        padding: 10px;
+    }
+    .recent{
+        font-size: 1.5vw;
+    }
+    .pro{
+        font-size: 2.5vw;
+    }
+    .pro1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pro1a{
+        margin-top: 20px;
+    }
+    .rev{
+        font-size: 1.5vw;
+    }
+    .tes{
+        font-size: 2.5vw;
+    }
+    .cont{
+        font-size: 2.5vw;
+    }
+    .navvv{
+        margin-top: -20px;
+    }
+    .ficon{
+        width: 20px;
+        height: 20px;
+    }
+    .conbox{
+        width: 150px;
+        height: 100px;
+        padding: 10px;
+    }
+    .cicon{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .name{
+        margin-top: -20px;
+    }
+    .designation{
+        margin-top: -30px;
+    }
+    .button{
+        margin-top: -5px;
+    }
+    .cv{
+        width: 18vw;
+    }
+    .letstalk{
+        width: 15vw;
+    }
+    .box, .pfp2{
+        width: 150px;
+        height: 200px;
+    }
+    .aboutleft{
+        display: flex;
+        justify-content: center;
+    }
+    .what, .offer, .recent, .rev, .get, .navvv{
+        font-size: 2vw;
+    }
+    .exp, .serv, .pro, .tes, .cont, .tit{
+        font-size: 3vw;
+    }
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill_1{
+        margin-top: 10px;
+    }
+    .serlower{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ser1{
+        margin-top: 10px;
+    }
+    .navvv{
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width:425px){
+    .hello{
+        font-size: 5vw;
+    }
+    .name{
+        font-size: 7vw;
+        margin-top: -30px;
+    }
+    .designation{
+        font-size: 5vw;
+        margin-top: -40px;
+    }
+    .cv{
+        width: 30vw;
+    }
+    .letstalk{
+        width: 20vw;
+    }
+    .social, .scroll{
+        visibility: hidden;
+    }
+    .lowertext1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -100px;
+    }
+    .pfp{
+        width: 60vw;
+    }
+    .what, .offer, .recent, .rev, .get, .navvv{
+        font-size: 4vw;
+    }
+    .exp, .abouttext, .serv, .pro, .tes, .cont, .tit{
+        font-size: 6vw;
+    }
+    .abouttext{
+        margin-top: -25px;
+    }
+    .thre{
+        flex-direction: column;
+
+    }
+    .one{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .aboutmyself{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .lets{
+        margin-left: 0px;
+    }
+    .pro1a{
+        width: 330px;
+        height: 330px;
+    }
+    .proimg{
+        width: 300px;
+    }
+    .github{
+        padding: 8px 20px;
+    }
+    .live{
+        padding: 8px 40px;
+    }
+    .tbox{
+        height: 400px;
+    }
+    .whole{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    input[type=text], input[type=email]{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+    .leftcon{
+        margin-top: 20px;
+    }
+    .credit{
+        font-size: 10px;
+    }
+
+}
