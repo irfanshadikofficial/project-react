@@ -850,6 +850,7 @@ textarea{
         margin-top: -10px;
     }
 }
+/*################################################## 425 */
 @media screen and (max-width:425px){
     .hello{
         font-size: 5vw;
@@ -893,7 +894,11 @@ textarea{
 
     }
     .one{
+        width: 90%;
         margin-top: 10px;
+        margin-left: 0px;
+    }
+    .aboutleft{
         margin-left: 0px;
     }
     .aboutmyself{
@@ -935,5 +940,39 @@ textarea{
     .credit{
         font-size: 10px;
     }
+    .skill_1{
+        margin-left: 0px;
+    }
+    .ser1{
+        margin-left: 0px;
+        width: 80%;
+    }
+    .conbox{
+        width: 265px;
+    }
 
+    .btm{
+        margin-bottom: 80px;
+    }
+    .experience{
+        margin-bottom: 80px;
+    }
+    .emptyser{
+        margin-bottom: 80px;
+    }
+    .space{
+        margin-bottom: 0px;
+    }
+    .testimonials{
+        margin-top: 80px;
+    }
+    .testidivider{
+        margin-bottom: 80px;
+    }
+    .condivider{
+        margin-bottom: 80px;
+    }
+    .divfoot{
+        margin-bottom: 80px;
+    }
 }
