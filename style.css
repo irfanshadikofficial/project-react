@@ -131,7 +131,7 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -40px;
 }
-/***********************************************************************************<!--About US Section End-->*/
+/*<!--About US Section End-->*/
 .about{
     display: flex;
     flex-direction: row;
@@ -1006,4 +1006,56 @@ textarea{
     .live{
         padding: 8px 15px;
     }
+}
+@media screen and (max-width:320px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .name{
+        margin-top: -20px;
+    }
+    .designation{
+        margin-top: -30px;
+    }
+    .cv{
+        width: 39vw;
+    }
+    .letstalk{
+        width: 28vw;
+    }
+    .pfp{
+        width: 70vw;
+    }
+    .ser1{
+        width: 250px;
+    }
+    .what, .offer, .recent, .rev, .get, .navvv{
+        font-size: 5vw;
+    }
+    .exp, .abouttext, .serv, .pro, .tes, .cont, .tit{
+        font-size: 9vw;
+    }
+    .tbox{
+        height: 500px;
+    }
+    input[type=text], input[type=email]{
+        width: 100%;
+    }
+    .navvv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 6vw;
+        opacity: 80%;
+    }
+    .conbox{
+        width: 225px;
+    }
+    textarea{
+        width: 100%;
+    }
+    .cform{
+        margin-left: 0px;
+    }
+
 }
