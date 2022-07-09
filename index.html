@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="style.css">
     <!-- Website Icon -->
     <link rel="icon" href="img/irfanshadikofficial.jpg">
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- [Animation On Scrolll - CSS] -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!--Landing Page Start-->
     <!--Upper Text Section-->
-    <div class="uppertext1" data-aos="fade-in">
+    <div class="uppertext1" data-aos="fade-in" id="home">
         <div class="text1">
             <p class="hello">Hello I'm</p>
             <p class="name">Irfan Shadik Rishad</p>
@@ -44,7 +46,7 @@
     </div>
     <!--Landing Page End-->
     <!--About US Section Start-->
-    <div class="container aboutme">
+    <div class="container aboutme" id="about">
     <div class="container uppertext2" data-aos="fade-left">
         <p class="get">Get to know</p>
         <p class="abouttext">About Me</p>
@@ -241,7 +243,7 @@
 </div>
 <!--Experience Start ##################################################################-->
 <!--MY SERVICES MY SERVICES MY SERVICES MY SERVICES MY SERVICES MY SERVICES MY SERVICES-->
-<div class="container services">
+<div class="container services" id="services">
     <div class="serupper" data-aos="fade-left">
         <p class="offer">What I offer</p>
         <p class="serv">Services</p>
@@ -403,7 +405,7 @@
 <p class="emptyser"></p>
 <!--MY SERVICES MY SERVICES MY SERVICES MY SERVICES MY SERVICES MY SERVICES MY SERVICES-->
 <!--RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS-->
-<div class="container projects">
+<div class="container projects" id="projects">
     <div class="upperpro" data-aos="fade-left">
         <p class="recent">My recent works</p>
         <p class="pro">Projects</p>
@@ -514,7 +516,7 @@
 <p class="testidivider"></p>
 <!--TESTIMONIALS TESTIMONIALS TESTIMONIALSTESTIMONIALS TESTIMONIALSTESTIMONIALS TESTIMONIALS -->
 <!--CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT -->
-<div class="container contact">
+<div class="container contact" id="contact">
     <div class="uppercon" data-aos="fade-left">
         <p class="get">Get in touch</p>
         <p class="cont">Contact</p>
@@ -577,6 +579,21 @@
     <p class="created">Made with 🍏 by <a href="">Irfan Shadik Rishad</a></p>
 </div>
 <!--FOOTER FOOTER FOOTERFOOTER FOOTER FOOTER FOOTER FOOTER FOOTERFOOTER FOOTER FOOTER  -->
+
+<!-- Navbar -->
+<div class="container wholenav">
+    <div class="alignnav">
+    <div class="navstyle">
+        <ul class="listt">
+            <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#about"><i class="fa-solid fa-user-astronaut"></i></a></li>
+            <li><a href="#services"><i class="fa-solid fa-briefcase"></i></a></li>
+            <li><a href="#projects"><i class="fa-solid fa-gears"></i></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-at"></i></a></li>
+        </ul>
+    </div>
+    </div>
+</div>
 
 <!--JavaScript Linking-->
 <script src="script.js"></script>
