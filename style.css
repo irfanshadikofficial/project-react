@@ -107,8 +107,8 @@ a{
 .scrollimg{
     width: 34.5px;
 }
-.scroll{
-    margin-top: -25px;
+.social, .scroll{
+    margin-bottom: 30px;
 }
 .lowertext1{
     margin-top: 110px;
@@ -1116,4 +1116,3 @@ textarea{
         font-size: 20px;
     }
 }
-/* [twitter.com/irfanshadikoffi] */
