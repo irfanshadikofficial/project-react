@@ -1,4 +1,3 @@
-/* twitter.com/irfanshadikoffi */
 :root{
     --bg: #00011C;
     --primary: #0342AF;
@@ -583,7 +582,9 @@ input[type=text], input[type=email]{
     color: white;
     padding-left: 10px;
 }
-
+input[type=text]:focus-visible, input[type=email]:focus-visible, textarea:focus-visible{
+    outline: 3px solid var(--primary);
+}
 textarea{
     background-color: var(--bg);
     border: 5px solid var(--border);
