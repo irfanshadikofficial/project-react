@@ -10,6 +10,113 @@
 body{
     background-color: var(--bg);
 }
+/* Button Mimas */
+.btn {
+	pointer-events: auto;
+	cursor: pointer;
+	background: var(--primary);
+	border: none;
+	padding: 0rem 5rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.btn::before,
+.btn::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.btn--mimas {
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-weight: 700;
+	font-size: 0.85rem;
+	border-radius: 0.5rem;
+    border: 5px solid var(--border);
+	overflow: hidden;
+	color: #fff;
+	background: var(--primary);
+}
+
+.btn--mimas p {
+	position: relative;
+	mix-blend-mode: difference;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn--mimas::before {
+	content: '';
+	background: var(--bg);
+	width: 120%;
+	left: -10%;
+	transform: skew(30deg);
+	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.btn--mimas:hover::before {
+	transform: translate3d(100%,0,0);
+}
+/* Button Mimas 2*/
+.btn2 {
+	pointer-events: auto;
+	cursor: pointer;
+	background: var(--primary);
+	border: none;
+	padding: 0rem 2rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.btn2::before,
+.btn2::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.btn2--mimas {
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-weight: 700;
+	font-size: 0.85rem;
+	border-radius: 0.5rem;
+    border: 5px solid var(--border);
+	overflow: hidden;
+	color: #fff;
+	background: var(--bg);
+}
+
+.btn2--mimas p {
+	position: relative;
+	mix-blend-mode: difference;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn2--mimas::before {
+	content: '';
+	background: var(--primary);
+	width: 120%;
+	left: -10%;
+	transform: skew(30deg);
+	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.btn2--mimas:hover::before {
+	transform: translate3d(100%,0,0);
+}
+/* Button Mimas */
 .hello{
     color: white;
     opacity: 50%;
@@ -35,13 +142,13 @@ body{
 .uppertext1{
     margin-top: 100px;
 }
+.button > a{
+    margin: 5px;
+}
 .button{
     display: flex;
     justify-content: center;
     margin-top: -15px;
-}
-.mar{
-    margin-top: 9px;
 }
 .cv{
     width: 14vw;
@@ -206,16 +313,7 @@ a{
     margin-left: 106px;
 }
 .lets{
-    display: inline-block;
-    padding: 8px 50px;
-    background-color: var(--primary);
-    border: var(--border) solid 5px;
-    border-radius: 12px;
     margin-left: 35px;
-}
-.lets:hover{
-    background-color: var(--bg);
-    transition: all 1s;
 }
 .btm{
     margin-bottom: 815px;
@@ -388,7 +486,6 @@ a{
 .proimg{
     width: 400px;
     border-radius: 15px;
-    margin-top: -12px;
 }
 .h{
     font-size: 25px;
@@ -406,21 +503,14 @@ a{
     margin-top: 15px;
 }
 .github{
-    background-color: var(--primary);
-    border: var(--border) solid 5px;
-    padding: 8px 60px ;
-    border-radius: 12px;
+    padding: 0px 50px ;
 }
 .github:hover{
     background-color: var(--bg);
     transition: all 1s;
 }
 .live{
-    margin-left: 10px;
-    padding: 8px 55px;
-    background-color: var(--bg);
-    border: var(--border) solid 5px;
-    border-radius: 12px;
+    padding: 0px 52px;
 }
 .live:hover{
     background-color: var(--primary);
@@ -428,7 +518,7 @@ a{
 }
 .pro1a{
     width: 430px;
-    height: 370px;
+    height: 400px;
     border-radius: 15px;
     background-color: var(--primary);
     border: var(--border) solid 5px;
@@ -606,8 +696,6 @@ textarea{
     width: 200px;
     height: 45px;
     margin-top: 10px;
-    border: 5px solid var(--border);
-    border-radius: 10px;
 }
 .send:hover{
     background-color: var(--bg);
@@ -855,11 +943,25 @@ textarea{
     }
 }
 @media screen and (max-width:768px){
+    .hello{
+        font-size: 2.5vw;
+    }
     .name{
-        margin-top: -20px;
+        margin-top: -25px;
+        font-size: 3.5vw;
     }
     .designation{
-        margin-top: -30px;
+        margin-top: -35px;
+        font-size: 2.5vw;
+    }
+    .btn{
+        padding: 0px 33px;
+    }
+    .btn2{
+        padding: 0rem 1.5rem;
+    }
+    .pfp{
+        width: 30vw;
     }
     .button{
         margin-top: -5px;
@@ -904,6 +1006,12 @@ textarea{
 }
 /*################################################## 425 */
 @media screen and (max-width:425px){
+    .btn{
+        padding: 0px 15px;
+    }
+    .btn2{
+        padding: 0rem 1rem;
+    }
     .hello{
         font-size: 5vw;
     }
@@ -962,16 +1070,16 @@ textarea{
     }
     .pro1a{
         width: 330px;
-        height: 330px;
+        height: 340px;
     }
     .proimg{
         width: 300px;
     }
     .github{
-        padding: 8px 20px;
+        padding: 0px 20px;
     }
     .live{
-        padding: 8px 40px;
+        padding: 0px 32px;
     }
     .tbox{
         height: 400px;
@@ -1029,6 +1137,20 @@ textarea{
     }
 }
 @media screen and (max-width:375px) {
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn, .btn2{
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .navvv {
+        flex-direction: column;
+        align-items: center;
+    }
     .designation{
         margin-top: -35px;
     }
@@ -1043,11 +1165,26 @@ textarea{
     }
     .pro1a{
         width: 280px;
-        height: 280px;
+        height: 380px;
+    }
+    .probtn > a{
+        margin: 5px;
+    }
+    .github, .live{
+        padding: 0px 40px;
+    }
+    .cform{
+        margin-left: 0px;
+    }
+    input[type=text], input[type=email], textarea{
+        width: 280px;
     }
     .proimg{
         width: 250px;
-        margin-top: -10px;
+        margin-top: 0px;
+    }
+    .conbox{
+        width: 270px;
     }
     .h{
         font-size: 20px;
@@ -1055,19 +1192,24 @@ textarea{
     .te{
         font-size: 15px;
     }
-    .live{
-        padding: 8px 15px;
-    }
 }
 @media screen and (max-width:320px) {
     .container{
         width: var(--container-width-sm);
     }
+    .hello{
+        font-size: 6vw;
+    }
     .name{
-        margin-top: -20px;
+        margin-top: -25px;
+        font-size: 7vw;
     }
     .designation{
         margin-top: -30px;
+        font-size: 6vw;
+    }
+    .btn, .btn2{
+        width: 130px;
     }
     .cv{
         width: 39vw;
@@ -1139,7 +1281,7 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .35);  
     backdrop-filter: blur(5px);
     width:350px;
     height:70px;
@@ -1147,7 +1289,6 @@ textarea{
 }
 .fa-house, .fa-user-astronaut, .fa-briefcase, .fa-gears, .fa-at{
     color: var(--bg);
-    opacity: 80%;
 }
 
 @media screen and (max-width:768px) {
