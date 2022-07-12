@@ -1,3 +1,4 @@
+/* twitter.com/irfanshadikoffi */
 :root{
     --bg: #00011C;
     --primary: #0342AF;
@@ -221,7 +222,24 @@ a{
     margin-bottom: 815px;
 }
 .highlighter{
-    color: var(--border);
+    color: white;
+    position: relative;
+}
+.highlighter::before{
+    content: '';
+    background-color: var(--border);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+.highlighter:hover::before{
+    bottom: 0;
+    height: 100%;
+
 }
 /*About ME END8888888888888888888888888888888888888888888888888888888888888888888888*/
 .experience{
@@ -511,9 +529,28 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .t02{
-    color: white;
     margin: 0px;
+    background:
+    linear-gradient(
+      to right,
+      rgba(71, 163, 255, 1),
+      rgba(71, 163, 255, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
+.t02:hover{
+    background-size: 0 3px, 100% 3px;
+}
+
 .conbox{
     display: flex;
     flex-direction: column;
@@ -536,7 +573,7 @@ a{
     margin-left: 20px;
 }
 input[type=text], input[type=email]{
-    width: 500px;
+    width: 490px;
     height: 50px;
     margin-top: 10px;
     border-radius: 10px;
@@ -544,6 +581,7 @@ input[type=text], input[type=email]{
     background-color: var(--bg);
     font-size: 20px;
     color: white;
+    padding-left: 10px;
 }
 
 textarea{
@@ -551,11 +589,13 @@ textarea{
     border: 5px solid var(--border);
     border-radius: 10px;
     margin-top: 10px;
-    width: 500px;
+    width: 490px;
     height: 300px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 .send{
     display: flex;
@@ -577,6 +617,17 @@ textarea{
 }
 /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*/
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+.lol{
+    box-shadow: inset 0 0 0 0 var(--border);
+    color: var(--primary);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.lol:hover{
+    box-shadow: inset 142px 0 0 0 var(--border);
+    color: white;
+}
 .tit{
     color: var(--primary);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -589,11 +640,17 @@ textarea{
     justify-content: center;
     font-size: 1.1vw;
     margin-top: -30px;
+    padding-left: 0px;
+}
+.navv{
+    margin-left: -15px;
 }
 .navvv>li{
     list-style: none;
     margin-left: 15px;
 }
+
+
 .navvv>li>a:hover, .navvv>li>a:active{
     color: var(--primary);
     transition: all 1s;
@@ -620,13 +677,7 @@ textarea{
     font-size: 15px;
     color: var(--primary);
 }
-.created>a{
-    color: var(--border);
-}
-.created>a:hover{
-    color: var(--primary);
-    transition: all 1s;
-}
+
 /* Custom Scrollbar  */
 /* width */
 ::-webkit-scrollbar {
