@@ -10,7 +10,7 @@
     --container-width-sm: 94%;
 
     /*mode*/
-    --navstyle-background: rgba(255, 255, 255, .35);
+    --navstyle-background: rgba(24, 66, 255, 0.349);
 }
 .light-mode{
     --bg: lightgray;
@@ -867,7 +867,7 @@ textarea{
     margin-left: 10px;
 }
 .divfoot{
-    margin-bottom: 640px;
+    margin-bottom: 540px;
 }
 .mode{
     padding: 0px;
@@ -880,12 +880,13 @@ textarea{
 }
 .credit{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: var(--primary);
+    margin-bottom: 80px;
 }
 
 /* Custom Scrollbar  */
