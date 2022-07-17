@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 :root{
     --bg: #00011C;
     --primary: #0342AF;
     --border: #47A3FF;
+    --c: white;
 
     --container-width-lg: 80%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
+
+    /*mode*/
+    --navstyle-background: rgba(255, 255, 255, .35);
+}
+.light-mode{
+    --bg: lightgray;
+    --c: black;
+    --navstyle-background: #47A3FF;
 }
 body{
     background-color: var(--bg);
@@ -118,13 +128,13 @@ body{
 }
 /* Button Mimas */
 .hello{
-    color: white;
+    color: var(--c);
     opacity: 50%;
     font-size: 1.5vw;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* copy from here */
+/* Scroll Animation */
 .scrolldown {
     --color: white;
     --sizeX: 25px;
@@ -206,16 +216,16 @@ body{
       opacity: 0.5;
     }
   }
-  /*copy until here */
+  /* Scroll Animation */
 .name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3vw;
     text-align: center;
-    color: whitesmoke;
+    color: var(--c);
     margin-top: -50px;
 }
 .designation{
-    color: white;
+    color: var(--c);
     opacity: 50%;
     font-size: 2vw;
     margin-top: -76px;
@@ -260,7 +270,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
@@ -311,7 +321,7 @@ a{
     margin-top: 100px;
 }
 .get{
-    color: white;
+    color: var(--c);
     opacity: 50%;
     font-size: 1.1vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -368,13 +378,13 @@ a{
     width: 72px;
 }
 .head{
-    color: white;
+    color: var(--c);
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -0.1px;
 }
 .body{
-    color: white;
+    color: var(--c);
     font-size: 13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 50%;
@@ -387,7 +397,7 @@ a{
     margin-left: 10px;
 }
 .aboutmyself{
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     width: 90%;
@@ -405,7 +415,7 @@ a{
     margin-bottom: 815px;
 }
 .highlighter{
-    color: white;
+    color: var(--c);
     position: relative;
 }
 .highlighter::before{
@@ -426,7 +436,7 @@ a{
 }
 /*About ME END8888888888888888888888888888888888888888888888888888888888888888888888*/
 .experience{
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .what{
@@ -496,7 +506,7 @@ a{
     margin-top: 10px;
 }
 .offer{
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1vw;
     opacity: 50%;
@@ -504,7 +514,7 @@ a{
 }
 .serv{
     font-size: 2vw;
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: -38px;
@@ -514,7 +524,7 @@ a{
     width: 30px;
 }
 .servtext{
-    color: white;
+    color: var(--c);
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
@@ -527,7 +537,7 @@ a{
     margin-left: 25px;
 }
 .s1{
-    color: white;
+    color: var(--c);
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 35px;
@@ -555,7 +565,7 @@ a{
 }
 /*<!--RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS RECENT PROJECTS-->*/
 .projects{
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .recent{
@@ -633,10 +643,13 @@ a{
 
 /* TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS */
 .testimonials{
-    color: white;
+    color: var(--c);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 400px;
+}
+.tex{
+    color: white;
 }
 .rev{
     font-size: 1.1vw;
@@ -688,7 +701,7 @@ a{
 /* TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS TESTIMONIALS */
 /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*/
 .cont{
-    color: white;
+    color: var(--c);
     font-size: 2vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -699,7 +712,7 @@ a{
     height: 40px;
 }
 .t01{
-    color: white;
+    color: var(--c);
     opacity: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -844,10 +857,21 @@ textarea{
 .divfoot{
     margin-bottom: 640px;
 }
+.mode{
+    height: 30px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.2rem;
+    color: var(--c);
+    background-color: var(--bg);
+    border: 3px solid var(--border);
+    border-radius: 10px;
+    padding: 0px 15px;
+}
 .credit{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: var(--primary);
@@ -1367,7 +1391,7 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, .35);  
+    background-color: var(--navstyle-background);
     backdrop-filter: blur(5px);
     width:350px;
     height:70px;
