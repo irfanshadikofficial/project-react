@@ -15,7 +15,7 @@
 .light-mode{
     --bg: lightgray;
     --c: black;
-    --navstyle-background: #47A3FF;
+    --navstyle-background: rgba(169, 169, 169, 0.281);
 }
 body{
     background-color: var(--bg);
@@ -314,7 +314,7 @@ a{
     margin-bottom: 55px;
 }
 .lowertext1{
-    margin-top: 110px;
+    margin-top: 90px;
 }
 /*<!--About US Section Start-->*/
 .aboutme{
@@ -870,20 +870,19 @@ textarea{
     margin-bottom: 640px;
 }
 .mode{
-    height: 30px;
-    font-family: 'Gamja Flower', cursive;
-    font-size: 1.2rem;
-    color: var(--c);
+    padding: 0px;
     background-color: var(--bg);
-    border: 3px solid var(--border);
-    border-radius: 10px;
-    padding: 0px 15px;
+    border: 0px solid var(--bg);
+}
+.sun{
+    width: 2rem;
+    background-color: var(--bg);
 }
 .credit{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: var(--primary);
@@ -1391,8 +1390,11 @@ textarea{
     .what, .offer, .recent, .rev, .get, .navvv{
         font-size: 5vw;
     }
-    .exp, .abouttext, .serv, .pro, .tes, .cont, .tit{
+    .exp, .abouttext, .serv, .pro, .tes, .cont{
         font-size: 9vw;
+    }
+    .tit{
+        font-size: 7vw;
     }
     .tbox{
         height: 500px;
