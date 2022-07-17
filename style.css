@@ -947,6 +947,30 @@ textarea{
     /*---*/
 }
 @media screen and (max-width:1024px) {
+    .btm{
+        margin-bottom: 200px;
+    }
+    .experience{
+        margin-bottom: 100px;
+    }
+    .emptyser{
+        margin-bottom: 200px;
+    }
+    .space{
+        margin-bottom: 100px;
+    }
+    .testimonials{
+        margin-top: 300px;
+    }
+    .testidivider{
+        margin-bottom: 100px;
+    }
+    .condivider{
+        margin-bottom: 100px;
+    }
+    .divfoot{
+        margin-bottom: 150px;
+    }
     .name{
         margin-top: -25px;
     }
@@ -1102,6 +1126,7 @@ textarea{
     }
     .skill_1{
         margin-top: 10px;
+        width: 430px;
     }
     .serlower{
         flex-direction: column;
@@ -1109,6 +1134,7 @@ textarea{
     }
     .ser1{
         margin-top: 10px;
+        width: 430px;
     }
     .navvv{
         margin-top: -10px;
@@ -1212,10 +1238,11 @@ textarea{
     }
     .skill_1{
         margin-left: 0px;
+        width: 90%;
     }
     .ser1{
         margin-left: 0px;
-        width: 80%;
+        width: 90%;
     }
     .conbox{
         width: 265px;
@@ -1244,6 +1271,14 @@ textarea{
     }
     .divfoot{
         margin-bottom: 80px;
+    }
+    .credit{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .created{
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width:375px) {
