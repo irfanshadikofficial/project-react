@@ -277,11 +277,16 @@ a{
     width: var(--container-width-lg);
     margin: 0 auto;
 }
-.social img{
+.social i{
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
-    width: 25px;
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 3px;
+}
+.social i:hover{
+    color: var(--border);
+    transition: all 0.2s;
 }
 .line{
     width: 3px;
@@ -289,7 +294,7 @@ a{
     border-radius: 4px;
     background-color: var(--primary);
     margin-top: -0.1px;
-    margin-left: 10px;
+    margin-left: 11px;
 }
 .lowertext1{
     display: flex;
@@ -347,7 +352,7 @@ a{
     position: absolute;
     width: 300px;
     height: 400px;
-    border-radius: 16px;
+    border-radius: 20px;
     background-color: var(--primary);
 }
 .pfp2{
@@ -805,16 +810,17 @@ textarea{
 }
 /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*/
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
-.fa-facebook-square, .fa-twitter-square, .fa-linkedin, .fa-youtube{
-    font-size: 1.8rem;
-    margin: 5px;
+.socialf i{
     color: var(--primary);
+    font-size: 1.3rem;
+    margin: 5px;
 }
-.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-linkedin:hover, .fa-youtube:hover{
-    transform: translateY(-5px);
+.socialf i:hover{
     color: var(--border);
     border-bottom: 3px solid var(--border);
-    border-radius: .5px;
+    border-radius: 2px;
+    transform: translateY(-5px);
+    
 }
 
 .lol{
@@ -958,6 +964,49 @@ textarea{
     }
     /*---*/
 }
+@media screen and (max-width:1280px) {
+    .pfp{
+        width: 25vw;
+    }
+    .hello, .designation{
+        font-size: 2vw;
+    }
+    .designation{
+        margin-top: -50px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .aboutright{
+        margin-left: 0px;
+    }
+    .aboutleft{
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+    .box, .pfp2{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid var(--border);
+    }
+    .btm, .experience, .emptyser, .space, .testidivider, .condivider{
+        margin-bottom: 100px;
+    }
+    .divfoot{
+        margin-bottom: 300px;
+    }
+    .testimonials{
+        margin-top: 0px;
+    }
+    .pro1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pro1a{
+        margin-bottom: 20px;
+    }
+}
 @media screen and (max-width:1024px) {
     .btm{
         margin-bottom: 200px;
@@ -1089,11 +1138,27 @@ textarea{
     }
 }
 @media screen and (max-width:960px) {
+    .hello, .designation{
+        font-size: 2.5vw;
+    }
+    .name{
+        margin-top: -35px;
+        font-size: 3.5vw;
+    }
+    .pfp{
+        width: 30vw;
+    }
     .tit{
         font-size: 1.8rem;
     }
     .navvv{
         font-size: 1.2rem;
+    }
+    .btm, .emptyser{
+        margin-bottom: 100px;
+    }
+    .testimonials{
+        margin-top: 0px;
     }
 }
 @media screen and (max-width:768px){
@@ -1127,7 +1192,7 @@ textarea{
         width: 15vw;
     }
     .box, .pfp2{
-        width: 150px;
+        width: 200px;
         height: 200px;
     }
     .aboutleft{
